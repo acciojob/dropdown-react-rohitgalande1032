@@ -204,7 +204,7 @@ export default function App() {
   
 		{/* Selected Details */}
 		<div>
-		  <h2>Selected Details</h2>
+		  <h2 id="state-title">{selectedState.name}</h2>
 		  <div id="state-name">
 			<strong>State:</strong> {selectedState.name}
 		  </div>
