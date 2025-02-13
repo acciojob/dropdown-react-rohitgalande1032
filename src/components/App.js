@@ -211,12 +211,12 @@ export default function App() {
 		  <div id="state-description">{selectedState.description}</div>
   
 		  <div id="city-title">
-			<strong>City:</strong> {selectedCity.name}
+			 {selectedCity.name}
 		  </div>
 		  <div id="city-description">{selectedCity.description}</div>
   
 		  <div id="landmark-title">
-			<strong>Landmark:</strong> {selectedLandmark.name}
+			 {selectedLandmark.name}
 		  </div>
 		  <div id="landmark-description">{selectedLandmark.description}</div>
 		</div>
